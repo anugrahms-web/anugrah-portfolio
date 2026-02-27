@@ -7,19 +7,19 @@ export default function App() {
   const [activeMedia, setActiveMedia] = useState(null);
 
   const projects = [
-    { title: "Kochi", category: "Video Editing", type: "video", img: "/images/kochi.png", video: "/videos/kochi.mp4" },
-    { title: "PCB Workshop", category: "Video Editing", type: "video", img: "/images/pcb.png", video: "/videos/pcb.mp4" },
-    { title: "Ifthar Night", category: "Video Editing", type: "video", img: "/images/ifthar.png", video: "/videos/ifthar.mp4" },
-    { title: "Wagamon", category: "Video Editing", type: "video", img: "/images/wagamon.png", video: "/videos/wagamon.mp4" },
-    { title: "Memories", category: "Video Editing", type: "video", img: "/images/memories.png", video: "/videos/memories.mp4" },
-    { title: "Thattekad", category: "Video Editing", type: "video", img: "/images/thattekad.png", video: "/videos/thattekad.mp4" },
-    { title: "Calicut", category: "Video Editing", type: "video", img: "/images/calicut.png", video: "/videos/calicut.mp4" },
-    { title: "Illikkalkallu", category: "Video Editing", type: "video", img: "/images/illikkalkallu.png", video: "/videos/illikkalkallu.mp4" },
-    { title: "Industrial Visit", category: "Video Editing", type: "video", img: "/images/industrialvisit.png", video: "/videos/industrialvisit.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/kochi.png", video: "/videos/kochi.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/pcb.png", video: "/videos/pcb.mp4" },
+    { category: "Video Editing", type: "video", img: "/images/ifthar.png", video: "/videos/ifthar.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/wagamon.png", video: "/videos/wagamon.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/memories.png", video: "/videos/memories.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/thattekad.png", video: "/videos/thattekad.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/calicut.png", video: "/videos/calicut.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/illikkalkallu.png", video: "/videos/illikkalkallu.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/industrialvisit.png", video: "/videos/industrialvisit.mp4" },
 
-    { title: "Biennale 2026", category: "Graphic Design", type: "image", img: "/images/biennae 2026.jpg" },
-    { title: "Poster 1", category: "Graphic Design", type: "image", img: "/images/PORCHE gt3 rs.jpg" },
-    { title: "Poster 2", category: "Graphic Design", type: "image", img: "/images/r1.png" },
+    {  category: "Graphic Design", type: "image", img: "/images/biennae 2026.jpg" },
+    {  category: "Graphic Design", type: "image", img: "/images/PORCHE gt3 rs.jpg" },
+    {  category: "Graphic Design", type: "image", img: "/images/r1.png" },
   ];
 
   const categories = ["All", "Video Editing", "Graphic Design"];
@@ -126,9 +126,7 @@ export default function App() {
                   </div>
                 )}
 
-                <div className="p-3 text-center text-sm text-slate-300">
-                  {p.title}
-                </div>
+                
               </div>
             ))}
           </div>
