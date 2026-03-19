@@ -16,6 +16,8 @@ export default function App() {
     {  category: "Video Editing", type: "video", img: "/images/calicut.png", video: "/videos/calicut.mp4" },
     {  category: "Video Editing", type: "video", img: "/images/illikkalkallu.png", video: "/videos/illikkalkallu.mp4" },
     {  category: "Video Editing", type: "video", img: "/images/industrialvisit.png", video: "/videos/industrialvisit.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/short-video.png", video: "/videos/short-video.mp4" },
+    {  category: "Video Editing", type: "video", img: "/images/model-shoot.png", video: "/videos/model-shoot.mp4" },
 
     {  category: "Graphic Design", type: "image", img: "/images/biennae 2026.jpg" },
     {  category: "Graphic Design", type: "image", img: "/images/PORCHE gt3 rs.jpg" },
