@@ -22,6 +22,7 @@ export default function App() {
     {  category: "Graphic Design", type: "image", img: "/images/biennae 2026.jpg" },
     {  category: "Graphic Design", type: "image", img: "/images/PORCHE gt3 rs.jpg" },
     {  category: "Graphic Design", type: "image", img: "/images/r1.png" },
+    {  category: "Graphic Design", type: "image", img: "/images/apple.jpg" },
   ];
 
   const categories = ["All", "Video Editing", "Graphic Design"];
